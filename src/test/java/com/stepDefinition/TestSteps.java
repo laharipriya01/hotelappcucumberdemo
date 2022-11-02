@@ -26,6 +26,7 @@ public class TestSteps {
 		driver=new ChromeDriver();
 		driver.get("http://adactinhotelapp.com");
 		driver.manage().window().maximize();
+		System.out.println("user on homepage");
 	}
 
 	@When("user enters username")
